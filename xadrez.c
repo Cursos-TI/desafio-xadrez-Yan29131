@@ -1,6 +1,7 @@
 #include <stdio.h>
 
 // Nível Novato: Movimentação das peças com loops simples
+
 void nivelNovato() {
     printf("Movimentacao do Bispo:\n");
     for (int i = 0; i < 4; i++) {
@@ -19,6 +20,7 @@ void nivelNovato() {
 }
 
 // Nível Aventureiro: Movimentação do cavalo com loops aninhados
+
 void nivelAventureiro() {
     printf("\nMovimentacao do Cavalo:\n");
     for (int i = 0; i < 2; i++) {
@@ -32,6 +34,7 @@ void nivelAventureiro() {
 }
 
 // Nível Mestre: Movimentação usando funções recursivas e condições múltiplas
+
 void moverBispo(int passos) {
     if (passos == 0) return;
     printf("Diagonal Superior Direita\n");
